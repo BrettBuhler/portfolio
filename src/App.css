@@ -1,0 +1,262 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+body {
+  background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,0.85) 100%);
+  color: #ffffff; /* set text color to white for contrast */
+}
+
+a {
+  color: #9b59b6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0.5rem 1rem;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  margin-left: 1rem;
+}
+
+nav a {
+  font-weight: bold;
+}
+
+/* Main styles */
+main {
+  margin-top: 4rem;
+  max-width: 960px;
+  margin: 4rem auto 0;
+  padding: 0 1rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+section ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+section li {
+  padding: 1rem;
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  min-height: 50vh;
+}
+
+section li h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+section li p {
+  margin-bottom: 1rem;
+}
+
+section li a {
+  display: inline-block;
+  background-color: #9b59b6;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-align: center;
+  width: 49%;
+  margin-bottom: 10px;
+}
+
+.aContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section li a:hover {
+  background-color: #c28de1;
+}
+
+section li:hover{
+  background-image: none;
+  background-color: #333;
+  color:white
+}
+
+.openingMaster {
+  background-image: url('./images/openingMaster.PNG');
+  background-size: cover;
+  background-position: center bottom;
+  color: rgba(0, 0, 0, 0);
+  transition: all 0.5s ease;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.reactDash {
+  background-image: url('./images/dash.PNG');
+  background-size: cover;
+  background-position: center bottom;
+  color: rgba(0, 0, 0, 0);
+  transition: all 0.5s ease;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.wordlePlus {
+  background-image: url('./images/wordle.PNG');
+  background-size: cover;
+  background-position: center bottom;
+  color: rgba(0, 0, 0, 0);
+  transition: all 0.5s ease;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.codeWars {
+  background-image: url('./images/codeWars.PNG');
+  background-size: cover;
+  background-position: center bottom;
+  color: rgba(0, 0, 0, 0);
+  transition: all 0.5s ease;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+section li h3{
+  color: white;
+  background-color: #9b59b6;
+  text-align: center;
+  border-radius: 5px;
+}
+
+section#hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  background-image: url('https://source.unsplash.com/1600x900/?coding');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+section#hero h1 {
+  padding-top: 10rem;
+  font-size: 3.5rem;
+  margin-bottom: 0.5rem;
+  text-shadow: 5px 5px 5px black;
+}
+
+section#hero p {
+  font-size: 2rem;
+  text-shadow: 8px 8px 8px black;
+}
+
+section#about p {
+  margin-bottom: 2rem;
+}
+
+section#resume {
+  text-align: center;
+}
+
+section#resume p {
+  margin-bottom: 1rem;
+}
+
+section#contact label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+/* Contact styles */
+section#contact input,
+section#contact textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+}
+
+section#contact input:focus,
+section#contact textarea:focus {
+  outline: none;
+  border-color: #0077cc;
+}
+
+section#contact button[type="submit"] {
+  background-color: #9b59b6;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+section#contact button[type="submit"]:hover {
+  background-color: #c28de1;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+footer a {
+  color: #fff;
+}
