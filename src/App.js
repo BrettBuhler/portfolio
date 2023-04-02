@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import openingMaster from '../src/images/openingMaster.PNG'
+import resume from './pdf/Resume-test-pdf.pdf'
 
 function App() {
   return (
@@ -63,8 +63,8 @@ If you're interested in discussing potential projects or opportunities, please f
               <div className='liHeader'>
                 <h3>Wordle Plus</h3>
                 <div className='aContainer'>
-                  <a href="#">View Project</a>
-                  <a href="#">View Code</a>
+                  <a href="https://brettbuhler.github.io/wordle-plus/" target='_blank'>View Project</a>
+                  <a href="https://github.com/BrettBuhler/wordle-plus" target='_blank'>View Code</a>
                 </div>
               </div>
               <p>This MERN application lets users practice their chess openings using a chess board component and provides feedback on their moves. The app offers a user-friendly and engaging platform for chess enthusiasts to improve their opening strategies.</p>
@@ -84,12 +84,12 @@ I regularly complete coding challenges on Code Wars, and my hard work has paid o
             </li>
           </ul>
         </section>
-
+        <hr/>
         <section id="resume">
           <h2>Resume</h2>
-          <p>Include your resume in PDF format or link to it.</p>
+          <a href={resume} download>Download</a>
         </section>
-
+        <hr/>
         <section id="contact">
           <h2>Contact</h2>
           <form>
@@ -108,11 +108,9 @@ I regularly complete coding challenges on Code Wars, and my hard work has paid o
       </main>
 
       <footer>
+        <a href="#" className='bottomLink'>LinkedIn</a>
+        <a href="https://github.com/BrettBuhler" target='_blank' className='bottomLink'>GitHub</a>
         <p>&copy; Brett Buhler 2023. All rights reserved.</p>
-        <ul>
-          <li><a href="#">LinkedIn</a></li>
-          <li><a href="https://github.com/BrettBuhler">GitHub</a></li>
-        </ul>
       </footer>
     </div>
   );

@@ -19,12 +19,18 @@ body {
 }
 
 a {
-  color: #9b59b6;
+  padding: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+  color: #ffffff;
   text-decoration: none;
+  background-color: #9b59b6;
+  border-radius: 5px;
 }
 
 a:hover {
   text-decoration: underline;
+  background-color: #c28de1;
 }
 
 ul {
@@ -189,20 +195,27 @@ section#hero {
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
+  min-height: 400px;
 }
 
 section#hero h1 {
-  padding-top: 10rem;
+  padding-top: 20vh;
   font-size: 3.5rem;
   margin-bottom: 0.5rem;
   text-shadow: 5px 5px 5px black;
+  overflow: hidden;
 }
 
 section#hero p {
   font-size: 2rem;
   text-shadow: 8px 8px 8px black;
+  overflow: hidden;
 }
 
+section#hero#heroText {
+  height: 70vh;
+  overflow: hidden;
+}
 section#about p {
   margin-bottom: 2rem;
 }
@@ -259,4 +272,15 @@ footer {
 
 footer a {
   color: #fff;
+}
+
+#heroText {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.bottomLink {
+  margin: 10px;
 }
