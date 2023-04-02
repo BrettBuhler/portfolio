@@ -3,8 +3,6 @@ import './App.css';
 import openingMaster from '../src/images/openingMaster.PNG'
 
 function App() {
-
-
   return (
     <div className="App">
       <header>
