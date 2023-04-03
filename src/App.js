@@ -43,7 +43,7 @@ If you're interested in discussing potential projects or opportunities, please f
                   <a href="#">View Code</a>
                 </div>
               </div>
-              <p>This MERN application lets users practice their chess openings using a chess board component and provides feedback on their moves. The app offers a user-friendly and engaging platform for chess enthusiasts to improve their opening strategies.</p>
+              <p>Opening Master is a full-stack MERN application designed to assist chess enthusiasts in improving their opening strategies. The app features a chess board component that allows users to practice their openings, receive feedback on their moves, and save their progress. Users can save their openings to a database, enabling them to access their practice sessions from any device with internet access. By providing a user-friendly and engaging platform, Opening Master offers a valuable resource for chess enthusiasts seeking to enhance their skills and knowledge.</p>
               <h4>Technologies Used</h4>
               <p>JavaScript, MongoDB, Express, React, Node.js, React-Router, MUI, OAuth, Google App Engine</p>
             </li>
@@ -67,9 +67,9 @@ If you're interested in discussing potential projects or opportunities, please f
                   <a href="https://github.com/BrettBuhler/wordle-plus" target='_blank'>View Code</a>
                 </div>
               </div>
-              <p>This MERN application lets users practice their chess openings using a chess board component and provides feedback on their moves. The app offers a user-friendly and engaging platform for chess enthusiasts to improve their opening strategies.</p>
+              <p>Wordle Plus app is a fun and engaging game that challenges players to guess a mystery word by trying out different letter combinations. To enhance my skills as a software developer, I built the app from scratch using React and jQuery, with a focus on creating custom-built, reusable components. With Wordle Plus, players can enjoy an updated and enhanced version of the classic game, complete with sleek graphics, intuitive controls, and the ability to play an unlimited number of games per day.</p>
               <h4>Technologies Used</h4>
-              <p>JavaScript, MongoDB, Express, React, Node.js, React-Router, MUI, OAuth, Google App Engine</p>
+              <p>JavaScript, React, JQuery</p>
             </li>
             <li className='codeWars'>
               <div className='liHeader'>
