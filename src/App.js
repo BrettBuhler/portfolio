@@ -1,8 +1,25 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import './App.css';
-import resume from './pdf/Resume-test-pdf.pdf'
+import emailjs from '@emailjs/browser'
+import resume from './pdf/BrettBuhler.pdf'
+
 
 function App() {
+
+  const form = useRef()
+
+  const sendEmail = (event) => {
+    event.preventDefault()
+    emailjs.sendForm('service_2t56uvn', 'template_l7r9ynn', form.current, 'm3y3Aer-9QJyYsjyA')
+      .then((res) => {
+        console.log(res.text, ",Email Sent")
+        let resetForm = document.getElementById('emailForm')
+        resetForm.reset()
+      }, (err) => {
+        console.log(err.text, ",ERROR")
+      })
+  }
+
   return (
     <div className="App">
       <header>
@@ -26,10 +43,8 @@ function App() {
 
         <section id="about">
           <h2>About</h2>
-          <p>I'm Brett Buhler, a Full Stack Software Engineer with a unique background that includes a Master's degree in Philosophy from the University of Waterloo, as well as experience as an Area Manager at Amazon and as a Personal Banker at the Bank of Montreal.</p>
-          <p>I made the transition into software engineering and now specialize in the MERN software stack. I've built numerous full stack web applications from scratch and am always eager to tackle new challenges.
-
-If you're interested in discussing potential projects or opportunities, please feel free to reach out. Thank you for visiting my portfolio!</p>
+          <p>I'm Brett Buhler, a full-stack software developer with expertise in the MERN stack. I hold a Master's degree in philosophy from the University of Waterloo and have previously worked as an Amazon Area Manager and a personal banker at the Bank of Montreal. My passion for formal logic led me to pursue a career in software development, where I combine my analytical and problem-solving skills with my love for coding.
+My experience in different industries has given me a unique perspective on how technology can be utilized to improve processes and enhance user experiences. As a result, I approach software development with a holistic view, always striving to create high-quality, user-friendly applications that exceed client expectations.</p>
         </section>
 
         <section id="projects">
@@ -39,8 +54,8 @@ If you're interested in discussing potential projects or opportunities, please f
               <div className='liHeader'>
                 <h3>Opening Master</h3>
                 <div className='aContainer'>
-                  <a href="#">View Project</a>
-                  <a href="#">View Code</a>
+                  <a href="https://brettbuhler.github.io/opening" target='_blank'>View Project</a>
+                  <a href="https://github.com/BrettBuhler/opening" target='_blank'>View Code</a>
                 </div>
               </div>
               <p>Opening Master is a full-stack MERN application designed to assist chess enthusiasts in improving their opening strategies. The app features a chess board component that allows users to practice their openings, receive feedback on their moves, and save their progress. Users can save their openings to a database, enabling them to access their practice sessions from any device with internet access. By providing a user-friendly and engaging platform, Opening Master offers a valuable resource for chess enthusiasts seeking to enhance their skills and knowledge.</p>
@@ -51,13 +66,14 @@ If you're interested in discussing potential projects or opportunities, please f
               <div className='liHeader'>
                 <h3>React Dash</h3>
                 <div className='aContainer'>
-                  <a href="#">View Project</a>
-                  <a href="#">View Code</a>
+                  <a href="https://brettbuhler.github.io/react-dash/" target='_blank'>View Project</a>
+                  <a href="https://github.com/BrettBuhler/react-dash" target = '_blank'>View Code</a>
                 </div>
               </div>
-              <p>This MERN application lets users practice their chess openings using a chess board component and provides feedback on their moves. The app offers a user-friendly and engaging platform for chess enthusiasts to improve their opening strategies.</p>
+              <p>React-Dash is a Front-End React application that I built to develop my skills in Front-End development, React knowledge, UI design, Component Libraries knowledge, and Data visualization abilities. To achieve this, I utilized production-ready components from Material-UI, FullCalendar, and Nivo.</p>
+              <p>React-Dash is a modern, well-designed, and efficient React application that demonstrates my proficiency in Front-End development.</p>
               <h4>Technologies Used</h4>
-              <p>JavaScript, MongoDB, Express, React, Node.js, React-Router, MUI, OAuth, Google App Engine</p>
+              <p>JavaScript, React, React-Router, MUI, Formik, FullCalendar, Nivo</p>
             </li>
             <li className='wordlePlus'>
               <div className='liHeader'>
@@ -92,23 +108,23 @@ I regularly complete coding challenges on Code Wars, and my hard work has paid o
         <hr/>
         <section id="contact">
           <h2>Contact</h2>
-          <form>
+          <form ref={form} onSubmit={sendEmail} id={'emailForm'}>
             <label htmlFor="name">Name:</label>
-            <input type="text" id="name" name="name" required />
+            <input type="text" id="name" name="user_name" required />
 
             <label htmlFor="email">Email:</label>
-            <input type="email" id="email" name="email" required />
+            <input type="email" id="email" name="user_email" required />
 
             <label htmlFor="message">Message:</label>
             <textarea id="message" name="message" required></textarea>
 
-            <button type="submit">Submit</button>
+            <button type="submit" value="Send">Submit</button>
           </form>
         </section>
       </main>
 
       <footer>
-        <a href="#" className='bottomLink'>LinkedIn</a>
+        <a href="https://www.linkedin.com/in/brett-buhler-a7522a1b6/" target={'_blank'} className='bottomLink'>LinkedIn</a>
         <a href="https://github.com/BrettBuhler" target='_blank' className='bottomLink'>GitHub</a>
         <p>&copy; Brett Buhler 2023. All rights reserved.</p>
       </footer>
