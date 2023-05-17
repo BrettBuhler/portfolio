@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# Brett Buhler - Portfolo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my portfolio website! This site showcases my skills, experience, and projects as a full-stack software engineer.
 
-## Available Scripts
+## About
 
-In the project directory, you can run:
+I am a full-stack software developer with expertise in the MERN stack. I hold a Master's degree in philosophy from the University of Waterloo and have worked in various industries, including Amazon and banking, before transitioning to software development. I have a passion for formal logic, which I combine with my analytical and problem-solving skills to create high-quality, user-friendly applications.
 
-### `npm start`
+## Projects
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The website features several of my projects, including:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Opening Master: a full-stack MERN application designed to assist chess enthusiasts in improving their opening strategies.
+- React Dash: a Front-End React application that I built to develop my skills in Front-End development, React knowledge, UI design, Component Libraries knowledge, and Data visualization abilities.
+- Wordle Plus: a fun and engaging game that challenges players to guess a mystery word by trying out different letter combinations.
+- Code Wars: a project that focuses on improving my knowledge of data structures and algorithms by completing coding challenges on Code Wars.
 
-### `npm test`
+Each project includes a brief description, a link to the live site (if available), and a link to the GitHub repository.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Resume
 
-### `npm run build`
+My resume is available for download on the website, and it includes my skills, education, work experience, and contact information.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contact
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+If you have any questions, comments, or project ideas, please feel free to contact me through the form on the website.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Thank you for visiting my portfolio website, and I look forward to hearing from you!
 
-### `npm run eject`
+## Try
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+You can check out my portfolio at https://brettbuhler.github.io/portfolio/
