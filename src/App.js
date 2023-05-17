@@ -72,7 +72,7 @@ My experience in different industries has given me a unique perspective on how t
               </div>
               <p>The backend of the Job Hunt application was developed with the aim of gaining familiarity with the MVC (Model-View-Controller) design pattern, implementing a static file server, and gaining experience with the Google Cloud Platform. It serves as the foundation for handling the application's core functionalities and interactions with the database.</p>
               <h4>Technologies Used</h4>
-              <p>Express.js, MongoDB, Mongoose, Google Cloud Platform, MVC (Model-View-Controller) Design Pattern, Statid File Server, JWT (JSON Web Tokens), Google Auth Library, Node.js, AJAX</p>
+              <p>Express.js, MongoDB, Mongoose, Google Cloud Platform, MVC (Model-View-Controller) Design Pattern, Static File Server, JWT (JSON Web Tokens), Google Auth Library, Node.js, AJAX</p>
             </li>
             <li className='openingMaster'>
               <div className='liHeader'>
