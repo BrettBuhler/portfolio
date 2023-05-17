@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.eabb80e1.css",
-    "main.js": "/portfolio/static/js/main.e212df8c.js",
+    "main.css": "/portfolio/static/css/main.bbfb4453.css",
+    "main.js": "/portfolio/static/js/main.5791e49a.js",
+    "static/media/jobHuntMain.PNG": "/portfolio/static/media/jobHuntMain.e3609360e0079dbc9d40.PNG",
     "static/media/openingMaster.PNG": "/portfolio/static/media/openingMaster.db5af1832ed65d76a145.PNG",
     "static/media/codeWars.PNG": "/portfolio/static/media/codeWars.1d5b2a7ace0cbb8a14d5.PNG",
     "static/media/BrettBuhler.pdf": "/portfolio/static/media/BrettBuhler.1bc145af7c336f2cecbd.pdf",
+    "static/media/jobHuntBackend.PNG": "/portfolio/static/media/jobHuntBackend.85db8676085d253f5027.PNG",
     "static/media/wordle.PNG": "/portfolio/static/media/wordle.f17d136d2c5ccb1d6afa.PNG",
     "static/media/dash.PNG": "/portfolio/static/media/dash.93a92852911ed164f004.PNG",
     "index.html": "/portfolio/index.html",
-    "main.eabb80e1.css.map": "/portfolio/static/css/main.eabb80e1.css.map",
-    "main.e212df8c.js.map": "/portfolio/static/js/main.e212df8c.js.map"
+    "main.bbfb4453.css.map": "/portfolio/static/css/main.bbfb4453.css.map",
+    "main.5791e49a.js.map": "/portfolio/static/js/main.5791e49a.js.map"
   },
   "entrypoints": [
-    "static/css/main.eabb80e1.css",
-    "static/js/main.e212df8c.js"
+    "static/css/main.bbfb4453.css",
+    "static/js/main.5791e49a.js"
   ]
 }
