@@ -50,11 +50,35 @@ My experience in different industries has given me a unique perspective on how t
         <section id="projects">
           <h2>Projects</h2>
           <ul>
+          <li className='jobHunt'>
+              <div className='liHeader'>
+                <h3>Job Hunt</h3>
+                <div className='aContainer'>
+                  <a href="https://job-hunt-385520.uc.r.appspot.com/" target='_blank'>View Project</a>
+                  <a href="https://github.com/BrettBuhler/job-hunt" target='_blank'>View Code</a>
+                </div>
+              </div>
+              <p>Job Hunt is a full-stack MERN (MongoDB, Express.js, React.js, Node.js) application created to simplify the process of creating professional cover letters for job seekers. The application leverages AI technology to generate customized cover letters within seconds. The project aimed to achieve two primary objectives: integrating TypeScript into a React application and exploring the integration of AI into web applications.</p>
+              <h4>Technologies Used</h4>
+              <p>TypeScript, JavaScript, Node.js, Express, React, MongoDB, Oauth, JWT tokens, Google App Engine, Google Cloud Platform, static file server, Open AI, RESTful API, Axios</p>
+            </li>
+            <li className='jobHuntBackEnd'>
+              <div className='liHeader'>
+                <h3>Job Hunt Back End</h3>
+                <div className='aContainer'>
+                  <a href="https://job-hunt-385520.uc.r.appspot.com/" target='_blank'>View Project</a>
+                  <a href="https://github.com/BrettBuhler/job-hunt-backend" target='_blank'>View Code</a>
+                </div>
+              </div>
+              <p>The backend of the Job Hunt application was developed with the aim of gaining familiarity with the MVC (Model-View-Controller) design pattern, implementing a static file server, and gaining experience with the Google Cloud Platform. It serves as the foundation for handling the application's core functionalities and interactions with the database.</p>
+              <h4>Technologies Used</h4>
+              <p>Express.js, MongoDB, Mongoose, Google Cloud Platform, MVC (Model-View-Controller) Design Pattern, Statid File Server, JWT (JSON Web Tokens), Google Auth Library, Node.js, AJAX</p>
+            </li>
             <li className='openingMaster'>
               <div className='liHeader'>
                 <h3>Opening Master</h3>
                 <div className='aContainer'>
-                  <a href="https://brettbuhler.github.io/opening" target='_blank'>View Project</a>
+                  <a href="https://brettbuhler.github.io/opening/" target='_blank'>View Project</a>
                   <a href="https://github.com/BrettBuhler/opening" target='_blank'>View Code</a>
                 </div>
               </div>

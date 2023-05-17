@@ -137,6 +137,26 @@ section li:hover{
   color:white
 }
 
+.jobHunt{
+  background-image: url('./images/jobHuntMain.PNG');
+  background-size: cover;
+  background-position: center bottom;
+  color: rgba(0, 0, 0, 0);
+  transition: all 0.5s ease;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.jobHuntBackEnd{
+  background-image: url('./images/jobHuntBackend.PNG');
+  background-size: cover;
+  background-position: center bottom;
+  color: rgba(0, 0, 0, 0);
+  transition: all 0.5s ease;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
 .openingMaster {
   background-image: url('./images/openingMaster.PNG');
   background-size: cover;
