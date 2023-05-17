@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.bbfb4453.css",
-    "main.js": "/portfolio/static/js/main.5791e49a.js",
+    "main.js": "/portfolio/static/js/main.6b3e8bc9.js",
     "static/media/jobHuntMain.PNG": "/portfolio/static/media/jobHuntMain.e3609360e0079dbc9d40.PNG",
     "static/media/openingMaster.PNG": "/portfolio/static/media/openingMaster.db5af1832ed65d76a145.PNG",
     "static/media/codeWars.PNG": "/portfolio/static/media/codeWars.1d5b2a7ace0cbb8a14d5.PNG",
@@ -11,10 +11,10 @@
     "static/media/dash.PNG": "/portfolio/static/media/dash.93a92852911ed164f004.PNG",
     "index.html": "/portfolio/index.html",
     "main.bbfb4453.css.map": "/portfolio/static/css/main.bbfb4453.css.map",
-    "main.5791e49a.js.map": "/portfolio/static/js/main.5791e49a.js.map"
+    "main.6b3e8bc9.js.map": "/portfolio/static/js/main.6b3e8bc9.js.map"
   },
   "entrypoints": [
     "static/css/main.bbfb4453.css",
-    "static/js/main.5791e49a.js"
+    "static/js/main.6b3e8bc9.js"
   ]
 }
