@@ -1,10 +1,12 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import './App.css';
 import emailjs from '@emailjs/browser'
 import resume from './pdf/BrettBuhler.pdf'
+import PopUp from './components/PopUp'
 
 
 function App() {
+  const [popup, setPopup] = useState(true)
 
   const form = useRef()
 
@@ -22,6 +24,7 @@ function App() {
 
   return (
     <div className="App">
+      <PopUp popup={popup} setPopup={setPopup}/>
       <header>
         <nav>
           <ul>
